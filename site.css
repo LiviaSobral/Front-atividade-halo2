@@ -3,6 +3,7 @@
     background-image: url(https://static1.squarespace.com/static/58e1668c2e69cfd46ac3028a/t/5c2cf62588251b499697ee65/1546450520223/H2A_Mission_Gravemind.jpg?format=1500w);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
