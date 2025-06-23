@@ -30,6 +30,9 @@ a{
     padding: 10px;
     border-radius: 5%;
 }
+#buttom:hover{
+    background-color: rgb(92, 102, 72);
+}
 #contato{
     display: flex;
     gap: 80px;
@@ -51,6 +54,9 @@ a{
     align-items: center;
     color: rgb(176, 184, 150);
     width: 200px;
+}
+.card2:hover{
+    background-color: rgba(74, 85, 35, 0.541);
 }
 .card3{
     background-color: rgba(58, 66, 29, 0.705);
