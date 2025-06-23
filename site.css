@@ -1,9 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 #banner{
     height: 600px;
     background-image: url(https://static1.squarespace.com/static/58e1668c2e69cfd46ac3028a/t/5c2cf62588251b499697ee65/1546450520223/H2A_Mission_Gravemind.jpg?format=1500w);
     background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,6 +43,7 @@ a{
     gap: 80px;
 }
 .card{
+    gap: 20px;
     background-color: rgba(192, 194, 187, 0.527);
     padding: 50px;
     border-radius: 5%;
@@ -47,6 +52,7 @@ a{
     align-items: center;
 }
 .card2{
+    gap: 20px;    
     background-color: rgba(58, 66, 29, 0.541);
     padding: 50px;
     border-radius: 20%;
@@ -60,6 +66,7 @@ a{
     background-color: rgba(74, 85, 35, 0.541);
 }
 .card3{
+    gap: 20px;
     background-color: rgba(58, 66, 29, 0.705);
     padding: 50px;
     border-radius: 5%;
@@ -76,6 +83,7 @@ a{
     justify-content: space-around;
 }
 .round_img{
+    gap: 20px;
     border-radius: 50%;
     height: 150px;
     width: 150px;
