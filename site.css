@@ -127,6 +127,7 @@ footer{
     align-items: center;
     height: 300px;
     width: 2000px;
+    flex-wrap: wrap;
 }
 .tres_imgs{
     background-color: rgb(36, 36, 33);
