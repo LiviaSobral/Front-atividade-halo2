@@ -7,7 +7,7 @@ body{
     flex-direction: column;
 }
 #banner{
-    height: 600px;
+    height: 70vh;
     background-image: url(https://static1.squarespace.com/static/58e1668c2e69cfd46ac3028a/t/5c2cf62588251b499697ee65/1546450520223/H2A_Mission_Gravemind.jpg?format=1500w);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -24,7 +24,7 @@ body{
 }
 header{
     background-color: rgb(102, 122, 46);
-    height: 100px;
+    height: 10vh;
     padding-left: 10px;
     display: flex;
     justify-content: space-between;
@@ -49,7 +49,7 @@ a{
 .card{
     gap: 20px;
     background-color: rgba(192, 194, 187, 0.527);
-    padding: 50px;
+    padding: 4%;
     border-radius: 5%;
     display: flex;
     flex-direction: column;
@@ -58,13 +58,14 @@ a{
 .card2{
     gap: 20px;    
     background-color: rgba(58, 66, 29, 0.541);
-    padding: 50px;
+    padding: 4%;
     border-radius: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: rgb(176, 184, 150);
     width: 200px;
+    height: 25vh;
 }
 .card2:hover{
     background-color: rgba(74, 85, 35, 0.541);
@@ -72,30 +73,32 @@ a{
 .card3{
     gap: 20px;
     background-color: rgba(58, 66, 29, 0.705);
-    padding: 50px;
+    padding: 4%;
     border-radius: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 150px;
-    width: 150px;
+    height: 10%;
+    width: 10%;
 }
 #info{
     background-color: rgb(32, 32, 31);
-    padding: 30px;
+    padding: 3%;
     display: flex;
     justify-content: space-around;
+    gap: 100px;
+    flex-wrap: wrap;
 }
 .round_img{
     display: flex;
     gap: 20px;
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
+    height: 50%;
+    width: 80%;
 }
 footer{
     background-color: rgb(58, 66, 29);
-    height: 100px;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,32 +106,33 @@ footer{
 #reasons{
     color: rgb(208, 212, 194);
     background-color: rgb(121, 143, 63);
-    padding: 10px;
+    padding: 4%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 30px;
 }
 .block{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 60px;
-    width: 900px;
-    margin: 50px;
+    width: 70%;
+    height: 20%;
 }
 .imgs{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: 300px;
-    width: 1800px;
+    width: 100%;
     flex-wrap: wrap;
+    gap: 20px;
 }
 .tres_imgs{
     background-color: rgb(36, 36, 33);
-    width: auto;
-    height: 200px;
-    padding: 5px;
+    width: 22vw;
+    height: 70%;
+    padding: 0.2%;
 }
 #registering{
     height: 1000px;
