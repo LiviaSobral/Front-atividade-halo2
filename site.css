@@ -38,6 +38,7 @@ a{
     background-color: rgb(79, 87, 64);
     padding: 10px;
     border-radius: 5%;
+    cursor: pointer;
 }
 #buttom:hover{
     background-color: rgb(92, 102, 72);
